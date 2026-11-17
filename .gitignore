@@ -1,0 +1,50 @@
+# Competition data, match video, and derived assets (never committed)
+data/
+broadcast/
+tactical/
+*.mp4
+*.avi
+*.mov
+
+# Local caches and intermediate outputs
+cache/
+cache*/
+submissions/
+submissions_*/
+results*/
+stage1/
+*.npz
+*.npy
+*.pkl
+*.csv
+
+# Model weights
+*.pt
+*.pth
+*.onnx
+
+# Reference external repos and clones
+more-than-a-hack-2027/
+
+# Python virtual environments & bytecode
+.venv/
+.venv*/
+venv/
+env/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Archives & temporary transfer files
+*.zip
+*.tar
+*.tgz
+*.gz
+_xfer/
+
+# Logs & editor artifacts
+*.log
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
